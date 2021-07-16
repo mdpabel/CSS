@@ -1,0 +1,31 @@
+:root {
+  --gray-color: rgba(0, 0, 0, 0.5);
+  --white: rgb(223, 219, 219);
+  --border: 1px solid var(--gray-color);
+  --font-size: 1rem;
+}
+
+.container {
+  margin: auto;
+  width: 600px;
+  position: relative;
+}
+
+.tabs {
+  display: flex;
+  background-color: var(--gray-color);
+  padding: 1rem;
+}
+
+.tab {
+  margin-right: 2rem;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.content {
+  border: var(--border);
+  width: 600px;
+  margin: auto;
+  display: none;
+}

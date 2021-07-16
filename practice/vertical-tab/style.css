@@ -1,0 +1,113 @@
+:root {
+  --white-color: #fff;
+  --light-gray: rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  min-height: 90vh;
+  flex-direction: column;
+}
+
+.tabs-container {
+  background-color: var(--light-gray);
+  height: 5rem;
+  position: relative;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.links {
+  display: none;
+}
+
+.bar div {
+  width: 2rem;
+  height: 4px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 4px 0;
+  cursor: pointer;
+}
+
+.responsive {
+  position: absolute;
+  top: 5rem;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--light-gray);
+  height: 80vh;
+  width: 60vw;
+}
+
+img {
+  height: 100%;
+}
+
+.btn {
+  background-color: var(--white-color);
+  border: 1px solid var(--light-gray);
+  padding: 0.8rem;
+  outline: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.sub-content {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.btn.active {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #fff;
+  transition: 0.5s;
+}
+
+.btn.active:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.logout {
+  margin-top: auto;
+}
+
+@media screen and (min-width: 550px) {
+  .container {
+    flex-direction: row;
+  }
+  .tabs-container {
+    width: 30vw;
+  }
+  .content {
+    width: 70vw;
+  }
+  .tabs-container {
+    height: 100vh;
+  }
+
+  .tabs {
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .bar {
+    display: none;
+  }
+}

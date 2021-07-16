@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <h2>Sign in with your email and password</h2>
+        <form action="https://formspree.io/f/{form_id}" method="POST">
+            <div class="input-group">
+                <input type="text" >
+                <label>Enter your email</label>
+            </div>
+
+            <div class="input-group">
+                <input class="pass" type="password" > <i onclick="handleClick()" class="fas fa-eye icon"></i>
+                <label>Enter your password</label>
+            </div>
+
+            <div class="btn-forgot">
+                <button class="btn">Login</button> 
+                <span class="forgot-pass"><a href="....">Forgot password?</a></span>
+            </div>
+        </form>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
+
+<!-- https://formspree.io/ -->

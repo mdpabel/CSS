@@ -1,0 +1,26 @@
+.userProfile {
+  width: 6rem;
+  height: 6rem;
+  background-color: lightcoral;
+
+  float: left;
+  margin-right: 0.6rem;
+}
+
+/** Clear fix second element **/
+.second-element {
+  clear: both;
+}
+
+/** parent collapsing **/
+
+.userInfo {
+  border: 3px solid black;
+}
+
+/** Fix the collapsing **/
+.clearFix::after {
+  content: "";
+  display: block;
+  clear: both;
+}

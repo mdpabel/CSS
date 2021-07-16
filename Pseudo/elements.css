@@ -1,0 +1,40 @@
+.selected {
+  background-color: red;
+  position: relative;
+}
+
+.selected::after {
+  content: "";
+  width: 50%;
+  height: 2px;
+  background-color: green;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  transition: 0.5s;
+}
+
+.selected:hover::after {
+  width: 85%;
+}
+
+::marker {
+  color: green;
+  font-size: large;
+}
+
+::selection {
+  color: red;
+  background-color: green;
+}
+
+p::first-letter {
+  font-size: 140%;
+}
+
+:disabled {
+  background-color: red;
+  color: aliceblue;
+}

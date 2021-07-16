@@ -1,0 +1,15 @@
+p {
+  /* text-align: center; */
+  /* text-decoration: underline; */
+  /* text-transform: capitalize; */
+  /* text-indent: 20px; */
+  /* direction: rtl; */
+  /* text-shadow: 2px 5px #d6d4d4; */
+  /* width: 50ch; */
+  /* white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; */
+  column-count: 2;
+  column-gap: 4rem;
+  column-rule: 2px dotted red;
+}

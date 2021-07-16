@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+    <link rel="stylesheet" href="Header.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">
+                <a href="/">Logo</a>
+            </div>
+            
+            <div class="search-box">
+                <input class="search-field" type="text" placeholder="Search...">
+            </div>
+
+            <div class="navItems">
+                <a href="/" class="navLink">Home</a>
+                <a href="/about" class="navLink">About</a>
+                <a href="/about" class="navLink">Services</a>
+                <a href="/contact" class="navLink">Contact</a>
+            </div>
+            <div onresize="handleClick()" onclick="handleClick()" class="menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+    </header>
+
+    <script src="header.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login -Registration form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="login-reg">
+        <div class="container">
+        <nav class="nav-pillars">
+            <div onclick="handleClick('login')" id="login1" class="navItem active">
+                <a class="nav-link">
+                    Login
+                </a>
+            </div>
+            <div onclick="handleClick('reg')" id="reg1" class="navItem">
+                <a class="nav-link">
+                    Register
+                </a>
+            </div>
+        </nav>
+
+        <div class="content">
+            <div id="login" class="login displayBlock" > 
+                <div class="input-group">
+                    <label for="email">Email address</label>
+                    <input id="email" type="email" placeholder="name@example.com" class="isValid" ><span class="icon"></span>
+                    <small>We'll never share your email with anyone else.</small>
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input id="password" type="password" placeholder="Password" class="isInvalid" ><span class="icon"></span>
+                    <small>Password incorrect.</small>
+                </div>
+
+                <div class="btn">
+                    <button type="submit">Submit</button>
+                </div>
+
+            </div>
+
+            <div id="reg" class="login">
+                <div class="input-group">
+                    <label for="full-name">Full Name</label>
+                    <input id="full-name" type="text" placeholder="Full Name" class="isValid" ><span class="icon"></span>
+                    <small>We'll never share your email with anyone else.</small>
+                </div>
+
+                <div class="input-group">
+                    <label for="full-name">Username</label>
+                    <input id="full-name" type="text" placeholder="Username" class="isValid" ><span class="icon"></span>
+                    <small>We'll never share your email with anyone else.</small>
+                </div>
+
+                <div class="input-group">
+                    <label for="email">Email address</label>
+                    <input id="email" type="email" placeholder="name@example.com" class="isValid" ><span class="icon"></span>
+                    <small>We'll never share your email with anyone else.</small>
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input id="password" type="password" placeholder="Password" class="isInvalid" ><span class="icon"></span>
+                    <small>Password incorrect.</small>
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Verify Password</label>
+                    <input id="password" type="password" placeholder="Password" class="isInvalid" >
+                </div>
+
+                <div class="btn">
+                    <button type="submit">Submit</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

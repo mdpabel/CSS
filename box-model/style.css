@@ -1,0 +1,11 @@
+p {
+  padding: 20px; /** spacing between the border and content area **/
+  margin: 20px; /** spacing outside of the border area **/
+  border: 1px solid gray;
+}
+
+/** Margin collapsing **/
+p {
+  padding: 0;
+  margin: 20px;
+}

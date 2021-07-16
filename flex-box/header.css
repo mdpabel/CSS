@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: cadetblue;
+  position: fixed;
+  left: 0;
+  right: 0;
+  width: auto;
+  height: 5rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  gap: 1rem;
+}
+
+a,
+a:active,
+a:link,
+a:visited {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  margin-left: 1.2rem;
+}
+
+a:first-child {
+  margin-left: 0;
+}
+
+.search-box {
+  flex-grow: 1;
+}
+
+.search-form {
+  width: 100%;
+}

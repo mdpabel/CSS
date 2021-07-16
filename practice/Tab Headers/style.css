@@ -1,0 +1,19 @@
+.tab {
+  position: relative;
+  background-color: gray;
+  padding: 1rem;
+  display: flex;
+  align-items: flex-end;
+  height: 200px;
+}
+
+p {
+  display: none;
+}
+
+button:hover p {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 30px;
+}

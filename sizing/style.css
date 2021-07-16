@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.box:nth-child(odd) {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border: 5px solid rgb(98, 20, 114);
+  padding: 20px;
+}
+
+.box:nth-child(even) {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  border: 5px solid gold;
+  padding: 20px;
+}
+
+.box::after {
+  content: "Hello";
+}
+
+span {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+span::after {
+  content: "Hello";
+}

@@ -1,0 +1,45 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.gallery {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "a a b c " "a a d e" "f g h i" "k l m n";
+  grid-gap: 2rem;
+}
+
+img {
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 4px;
+  height: 100%;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+.img-1 {
+  grid-area: a;
+}
+
+/* https://css-tricks.com/snippets/css/complete-guide-grid/ */
+
+/******************** CSS FILTER ***********************/
+
+img:hover {
+  filter: invert(100%);
+  /* grayscale(70%) 
+  drop-shadow(5px 5px 10px green) */
+}
+
+/* https://www.w3schools.com/cssref/playit.asp?filename=playcss_filter&preval=blur(5px) */

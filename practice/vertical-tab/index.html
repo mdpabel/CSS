@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical tabs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="tabs-container">
+            <div wi class="tabs">
+                <img width="80px" src="https://png.pngtree.com/element_pic/00/16/09/2057e0eecf792fb.jpg" alt="">
+                <div class="links">
+                    <button onclick="handleClick(event, 'posts')" class="btn active">Posts</button>
+                    <button onclick="handleClick(event, 'pages')"  class="btn">Pages</button>
+                    <button onclick="handleClick(event, 'products')"  class="btn">Products</button>
+                    <button onclick="handleClick(event, 'setting')"  class="btn">Setting</button>
+                    <button onclick="handleClick(event, 'logout')"  class="btn logout">Logout</button>
+                </div>
+                <div onclick="handleBar()" class="bar">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="sub-content active" id="posts">
+                <ul>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Labore, suscipit non?</li>
+                    <li>Omnis, provident soluta!</li>
+                </ul>
+            </div>
+
+            <div class="sub-content" id="pages">
+                <ul>
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/">About</a>
+                    </li>
+                    <li>
+                        <a href="/">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="sub-content" id="products">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, sint.
+            </div>
+
+            <div class="sub-content" id="setting">
+                Settings
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

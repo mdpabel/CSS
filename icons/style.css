@@ -1,0 +1,37 @@
+.fb,
+.google,
+.twitter,
+.linkedin {
+  color: #fff;
+  width: 20rem;
+  border-radius: 5px;
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.fab {
+  padding: 0.8rem;
+  width: 1rem;
+  border-right: 1px solid gray;
+  text-align: center;
+}
+
+.icon {
+  padding-right: 1rem;
+}
+
+.fb {
+  background-color: #3b5891;
+}
+
+.google {
+  background-color: #dd4c39;
+}
+
+.twitter {
+  background-color: #55acef;
+}
+
+.linkedin {
+  background-color: #007bb6;
+}

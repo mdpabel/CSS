@@ -1,0 +1,29 @@
+/* https://www.google.com/search?q=css+sprite+generator&oq=css+sp&aqs=chrome.1.69i59l3j69i57j69i60l3.2871j0j7&sourceid=chrome&ie=UTF-8 */
+
+.bg-worldwide {
+  width: 512px;
+  height: 512px;
+  display: inline-block;
+  background: url("img/css_sprites.png") -10px -10px;
+}
+
+.bg-notoriety {
+  width: 512px;
+  height: 512px;
+  display: inline-block;
+  background: url("img/css_sprites.png") -542px -10px;
+}
+
+.bg-contract {
+  width: 512px;
+  height: 512px;
+  display: inline-block;
+  background: url("img/css_sprites.png") -10px -542px;
+}
+
+.bg-chat {
+  width: 512px;
+  height: 512px;
+  display: inline-block;
+  background: url("img/css_sprites.png") -542px -542px;
+}

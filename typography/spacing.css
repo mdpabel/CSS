@@ -1,0 +1,24 @@
+html {
+  font-size: 100%;
+}
+
+::selection {
+  background-color: blueviolet;
+  color: #fff;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.5; /* font-size X 1.5 */
+}
+
+h1 {
+  margin: 3rem 0 0.5rem 0; /* top margin > bottom margin */
+  letter-spacing: -1px;
+}
+
+/* Ideal ling length is between 50-70 characters */
+p {
+  width: 50ch;
+  letter-spacing: 0.5px;
+}

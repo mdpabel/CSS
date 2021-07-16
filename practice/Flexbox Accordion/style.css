@@ -1,0 +1,36 @@
+.container {
+  width: 990px;
+  background-color: lightblue;
+  display: flex;
+  margin: auto;
+}
+
+div {
+  width: 100px;
+  height: 400px;
+  flex-grow: 1;
+}
+
+div:nth-child(1) {
+  background: lightblue;
+}
+
+div:nth-child(2) {
+  background: red;
+}
+
+div:nth-child(3) {
+  background: green;
+}
+
+div:nth-child(4) {
+  background: gold;
+}
+
+div:nth-child(5) {
+  background: darkblue;
+}
+
+.active {
+  flex-grow: 5;
+}

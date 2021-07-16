@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="tabs">
+            <div onclick="handleClick('content-1')" class="tab tab-1">
+                Web development
+            </div>
+            <div onclick="handleClick('content-2')" class="tab tab-2">
+                Android App development
+            </div>
+            <div  onclick="handleClick('content-3')" class="tab tab-3">
+                Desktop App development
+            </div>
+        </div>
+
+        <div id="content-1" class="content">
+            <h2>Tab-1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, velit? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, soluta?</p>
+        </div>
+
+        <div id="content-2" class="content">
+            <h2>Tab-2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, velit? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, soluta?</p>
+        </div>
+
+        <div id="content-3" class="content">
+            <h2>Tab-3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, velit? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, soluta?</p>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+.breadcrumb {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+a::after {
+  content: " > ";
+}
+
+a:last-child::after {
+  content: "";
+}
+
+a:last-child {
+  color: #000;
+  text-decoration: none;
+}

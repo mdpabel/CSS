@@ -1,0 +1,39 @@
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: aquamarine;
+}
+
+a:active {
+  color: blue;
+}
+
+a:hover {
+  color: blueviolet;
+}
+
+/** **/
+p {
+  display: none;
+  padding: 40px;
+  background-color: brown;
+  color: #fff;
+}
+
+div:hover p {
+  display: block;
+}
+
+div:hover {
+  background-color: red;
+}
+
+li:first-child {
+  background-color: brown;
+}
+
+li:nth-child(even) {
+  background-color: burlywood;
+}

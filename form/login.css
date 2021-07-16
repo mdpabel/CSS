@@ -1,0 +1,79 @@
+.container {
+  width: 30%;
+  margin: auto;
+  padding: 100px;
+}
+
+.input-group {
+  width: 100%;
+  position: relative;
+  margin: 1rem 0;
+}
+
+/* INPUT */
+input {
+  display: block;
+  padding: 0.6rem 1rem;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #9e9e9e;
+}
+
+input:focus {
+  outline: none;
+}
+
+label {
+  position: absolute;
+  left: 1.3rem;
+  top: 0.6rem;
+  color: #b7b7b7;
+  transition: 0.2s;
+}
+
+input:focus ~ label {
+  top: -0.5rem;
+  background: #fff;
+  padding: 0 0.1rem;
+  font-size: small;
+  color: #4caf50;
+}
+
+/* INPUT END */
+
+.btn {
+  padding: 0.5rem 3rem;
+  color: #fff;
+  background-color: green;
+  border: none;
+  border-radius: 3px;
+}
+
+input[type="password"] {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  cursor: pointer;
+}
+
+a {
+  color: #000;
+}
+
+.btn-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+/* EXTRA */
+::selection {
+  background-color: green;
+  color: #fff;
+}

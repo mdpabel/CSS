@@ -1,0 +1,28 @@
+.container {
+  border: 2px solid gold;
+  display: flex;
+  height: 90vh;
+
+  /**Alignments items**/
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  /* align-content: center; */
+}
+
+.box {
+  width: 10rem;
+  height: 10rem;
+  background-color: blue;
+  margin: 1rem;
+  /* sizing elements */
+  flex-basis: 15rem; /** width**/
+  /* flex-grow: 1; */
+}
+
+.box-1 {
+  /**ALign item**/
+  /* align-self: flex-end; */
+
+  flex-shrink: 1;
+}
