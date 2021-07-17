@@ -1,6 +1,6 @@
 > #Table of contents:
 
-- 1. All about selectors , inheritance
+1. All about selectors , inheritance
 2. Pseudo class
 3. basic, color, border, shadow, gradients, display
 4. typography -> fonts,  Embedding Fonts,  Flash of Unstyled text, font service, google font, system font, spacing, font properties ***
